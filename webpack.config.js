@@ -1,8 +1,8 @@
-import CopyPlugin from "copy-webpack-plugin";
-import { Configuration } from "webpack";
-import path from "path";
+const CopyPlugin = require("copy-webpack-plugin");
+const path = require("path");
 
-const config: Configuration = {
+/** @type {import("webpack").Configuration} */
+module.exports = {
   mode: "production",
   entry: "./src/client.tsx",
   output: {
@@ -22,5 +22,3 @@ const config: Configuration = {
     }),
   ],
 };
-
-export default config;
