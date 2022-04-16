@@ -35,6 +35,14 @@ export const Page: FC = () => {
       <Helmet>
         <title>すてぃん</title>
         <meta name="description" content="すてぃんの自己紹介ページ" />
+        <meta property="og:title" content="すてぃん" />
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://stin.ink" />
+        <meta property="og:image" content="https://stin.ink/chiroru.jpg" />
+        <meta property="og:description" content="すてぃんの自己紹介ページ" />
+        <meta property="og:profile:username" content="stin_factory" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@stin_factory" />
       </Helmet>
       <Box>
         <Box as="main" lineHeight="1.8" letterSpacing="wider">
