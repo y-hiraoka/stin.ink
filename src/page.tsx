@@ -27,7 +27,7 @@ const theme = extendTheme({
   shadows: { outline: "0 0 0 3px rgba(183, 148, 244, 0.6)" },
 });
 
-const secondaryTextColor = "blackAlpha.600";
+const secondaryTextColor = "blackAlpha.700";
 
 export const Page: FC = () => {
   return (
@@ -217,7 +217,7 @@ const Product: FC<{
         <Box fontSize="sm" color={secondaryTextColor} flex="1">
           {description}
         </Box>
-        <HStack color="purple.400" spacing="1" justifyContent="flex-end">
+        <HStack color="purple.500" spacing="1" justifyContent="flex-end">
           <Box as="span" fontSize="sm">
             サイトへ
           </Box>

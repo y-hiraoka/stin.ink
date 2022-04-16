@@ -8,7 +8,7 @@ const pageString = ReactDOMServer.renderToString(<Page />);
 const helmet = Helmet.renderStatic();
 
 const html = `<!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta name="viewport" content="width=device-width">
     ${helmet.title.toString()}
