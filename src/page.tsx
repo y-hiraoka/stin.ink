@@ -43,6 +43,7 @@ export const Page: FC = () => {
         <meta property="og:profile:username" content="stin_factory" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@stin_factory" />
+        <script data-ad-client="ca-pub-4010956213409647" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
       <Box>
         <Box as="main" lineHeight="1.8" letterSpacing="wider">
