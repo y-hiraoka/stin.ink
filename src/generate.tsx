@@ -13,6 +13,7 @@ const html = `<!DOCTYPE html>
     <meta name="viewport" content="width=device-width">
     ${helmet.title.toString()}
     ${helmet.meta.toString()}
+    ${helmet.script.toString()}
   </head>
   <body>
     <div id="react-root">${pageString}</div>
